@@ -9,7 +9,7 @@ class PostmanEchoTest {
       public void returnData() {
           given()
                 .baseUri("https://postman-echo.com")
-                .body("data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("the 31st of December") // отправляемые данные (заголовки и query можно выставлять аналогично)
 
                 .when()
                 .post("/post")
